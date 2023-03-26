@@ -1,0 +1,71 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik+Microbe&display=swap');
+.wrapper
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.container
+{
+    background-color: white;
+    border: 1px solid whitesmoke;
+}
+.container img
+{
+    
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+h1
+{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+p
+{
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 50px;
+}
+.discount 
+{
+
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color:darkblue;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.original
+{
+    text-decoration: line-through;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.button
+{
+    background-color: green;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+
+}
