@@ -1,0 +1,154 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container
+{
+    width:60%;
+    height: 100%;
+    background-color: whitesmoke;
+    padding: 1em 2em 3em 4em;
+
+}
+.menu,footer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 15%;
+    font-size: 0.6rem;
+    font-family: sans-serif;
+
+
+}
+nav.menu img
+{
+    height:35%;
+    width: 7%;
+}
+nav.menu ul
+{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    color: gray;
+    text-shadow: 1px 0px  0px  rgba(0,0,0,0.1);
+
+}
+nav.menu ul li:hover
+{
+    color: rgb(2, 2, 220);
+    transform: scale(1.02);
+}
+nav.menu button
+{	
+    height: 35%;
+    width: 19%;
+    background-color: rgb(4, 4, 222);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    overflow: hidden;
+box-shadow: 1px 0 0 rgba(0,0,0,0.1)
+    
+}
+nav.menu button:hover
+{
+    background-color: darkblue;
+    transform: scale(1.03);
+    box-shadow: 1px 1px 4px darkblue;
+}
+section.content1, section.content2
+{
+    display: flex;
+    justify-content: end;
+    height: 30%;
+}
+	.heading{
+    font-size: 1.2rem;
+}
+.desc
+{
+    font-size: 0.6rem;
+    width: 90%;
+    color: gray;
+
+    
+}
+section.content1 img, section.content2 img{
+    height: 70%;
+    width: 40%;
+    
+}
+section.content2 img
+{
+
+    margin-right: 3rem;
+    
+
+}
+section .content2 + hr{ /*adjacent sibling selector*/
+    margin-right: 3rem;
+}
+section hr{
+    margin: 0.2rem 0 1rem 0rem;
+    width: 35%;
+}
+footer
+{
+    margin-top: 1rem;
+}
+footer h5
+{
+    color: rgb(3, 3, 193);
+    text-decoration: underline;
+    padding: 0.5rem 0;
+
+
+}
+.privacy,.adressemail,.menu2{
+    height: 100%;
+}
+
+#logo2{
+    height: 52%;
+    width: 42%;
+    padding: 0.5rem 0;
+} 
+.images
+{
+    display: flex;
+    gap: 0.2rem;
+    height: 100%;
+    width: 15%;
+}
+.img{
+    height: 50%;
+    width: 50%;
+}
+footer button
+{
+   height: 20%; 
+   border-radius: 50%; /* To create round button, use 'border-radius: 50%' */
+   background-color: blue;
+   border: none;
+   width: 15%;
+
+}
+.menu2 ul{
+    list-style-type: none;
+}
